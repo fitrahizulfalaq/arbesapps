@@ -17,7 +17,7 @@
           <p align="left">
            <strong>PETUNJUK  PENGGUNAAN</strong></p>
            <ol>
-             <li>Mahasiswa mengakses alamat  website arbesapps.com</li>
+             <li>Mahasiswa mengakses alamat  website inobelum-arbes.com</li>
              <li>Mahasiswa memahami SCPL, CMPK,  dan Sub CMPK yang dapat diakses di Menu Tentang &gt; Identitas Mata Kuliah</li>
              <li>Mahasiswa masuk pada Menu  Materi Ajar dan memilih pertemuan sesuai dengan pertemuan perkuliahan</li>
              <li>Jika terdapat materi yang belum  dipahami mahasiswa dapat memanfaatkan Menu Hubungi Admin</li>

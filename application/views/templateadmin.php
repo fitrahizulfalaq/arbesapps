@@ -146,12 +146,11 @@
       $('#list').DataTable({
         "paging": true,
         "pagingType": "simple",
-        "ordering": true,
         "autoWidth": true,
         "searching": false,
         "info": false,
         "ordering": false,
-        "lengthMenu": [ [1, 10, 15, 20], [1, 10, 15, 20] ],
+        "lengthMenu": [ [1], [1] ],
       });
 
       $('#example2').DataTable({
