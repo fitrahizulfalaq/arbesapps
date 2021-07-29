@@ -9,7 +9,6 @@ class Home extends CI_Controller {
 
 	public function index()
 	{	
-		$data['row'] = $this->fungsi->pilihan_advanced("tb_bantuan","status","1");
-		$this->templateadmin->load('templateadmin','home',$data);
+		$this->templateadmin->load('templateadmin','home');
 	}
 }

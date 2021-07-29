@@ -65,8 +65,8 @@
             </ul>
           </li>
           <li><a href="<?= base_url('page/petunjuk')?>">Petunjuk</a></li>
-          <li><a href="<?= base_url('page/materi')?>">Materi Ajar</a></li>
-          <li><a href="<?= base_url('page/assessment')?>">Assessment</a></li>
+          <li><a href="<?= base_url('materi')?>">Materi Ajar</a></li>
+          <li><a href="<?= base_url('tugas')?>">Assessment</a></li>
           <li><a href="http://wa.me/62<?= ucfirst($this->fungsi->setting("hotline")->row("keterangan"))?>"><i class="icofont-whatsapp"></i> Hubungi Admin</a></li>
 
         </ul>
@@ -88,7 +88,8 @@
         &copy; <?= date("Y") ?> <strong><span><?= ucfirst($this->fungsi->setting("namaapk")->row("keterangan"))?></span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Didedikasikan Oleh <a href="https://fitrahizulfalaq.blogspot.com/">Arbes APPS</a>
+        Didedikasikan Oleh <a href="https://fitrahizulfalaq.blogspot.com/">Arbes APPS</a><br>
+        <small>Made With &#9829; <a href="https://bikinkarya.com">Bikinkarya Creative</a></small>
       </div>
     </div>
   </footer><!-- End Footer -->

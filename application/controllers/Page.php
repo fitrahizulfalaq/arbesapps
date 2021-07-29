@@ -53,15 +53,5 @@ class Page extends CI_Controller {
 		$data['judul'] = "Lihat Materi";
 		$this->templateadmin->load('templateadmin','page/view_files',$data);
 	}
-
-	public function assessment()
-	{	
-		$data['menu'] = "assessment";
-		$data['judul'] = "Kumpulkan assessment";
-		$this->templateadmin->load('templateadmin','page/assessment',$data);
-	}
-
-
-
 	
 }
