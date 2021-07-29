@@ -59,7 +59,7 @@ class Materi extends CI_Controller {
 
 		$query = $this->materi_m->getMateri($files_id);
 		if ($query->num_rows() > 0) {
-			$data['url'] = base_url('assets/dist/files/materi/'.$query->row("file"));
+			$data['url'] = 'https://admin.inobelum-arbes.com/assets/dist/files/materi/'.$query->row("file");
 			$this->templateadmin->load('templateadmin','materi/materi_detail',$data);
 		} else {
 			echo "<script>alert('Data Tidak Ditemukan');</script>";
