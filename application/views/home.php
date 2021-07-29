@@ -5,7 +5,7 @@
         <div>
           <h1>Lebih Mudah Belajar Sejarah di Masa Pandemi Covid-19</h1>
           <h2>ARBES Apps Hadir sebagai Solusi Lebih praktis, lebih canggih, dan lebih lengkap</h2>
-          <a href="<?= base_url("page/materi/")?>" class="btn-get-started scrollto">Mulai Sekarang</a>
+          <a href="<?= base_url("materi")?>" class="btn-get-started scrollto">Mulai Sekarang</a>
         </div>
       </div>
       <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
