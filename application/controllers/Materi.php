@@ -11,8 +11,8 @@ class Materi extends CI_Controller {
 
 	public function index()
 	{
-		$data['menu'] = "Tugas / Sumbit";
-		$data['judul'] = "Tambah Data tugas";
+		$data['menu'] = "Materi";
+		$data['judul'] = "Materi Ajar";
 		
 		$this->templateadmin->load('templateadmin','materi/menuMateri',$data);
 	}
@@ -22,7 +22,12 @@ class Materi extends CI_Controller {
 		$post = $this->input->post(null, TRUE);
 		$pertemuan_id = $post['pertemuan_id'];
 
-		redirect('materi/pertemuan/'.$pertemuan_id);
+		if ($post == null ) {
+			redirect('');
+		} else {
+			redirect('materi/pertemuan/'.$pertemuan_id);
+		}
+
 	}
 	
 	public function pertemuan()

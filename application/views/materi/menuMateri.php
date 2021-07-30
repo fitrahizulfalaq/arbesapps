@@ -20,7 +20,7 @@
           <?= form_open('materi/alihkan')?>
           <div class="form-group">
             <select name="pertemuan_id" class="form-control" required>
-              <option>Pilih : </option>
+              <option value="">Pilih : </option>
               <?php
                 foreach ($this->fungsi->pilihan("tb_pertemuan")->result() as $key => $pilihan) {;
               ?>

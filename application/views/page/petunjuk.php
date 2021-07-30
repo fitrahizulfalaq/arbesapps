@@ -17,11 +17,11 @@
           <p align="left">
            <strong>PETUNJUK  PENGGUNAAN</strong></p>
            <ol>
-             <li>Mahasiswa mengakses alamat  website inobelum-arbes.com</li>
-             <li>Mahasiswa memahami SCPL, CMPK,  dan Sub CMPK yang dapat diakses di Menu Tentang &gt; Identitas Mata Kuliah</li>
-             <li>Mahasiswa masuk pada Menu  Materi Ajar dan memilih pertemuan sesuai dengan pertemuan perkuliahan</li>
-             <li>Jika terdapat materi yang belum  dipahami mahasiswa dapat memanfaatkan Menu Hubungi Admin</li>
-             <li>Setelah memahami  materi yang tersedia, mahasiswa mengerjakan soal evaluasi dan mengumpulkannya  melalui Menu Assessment </li>
+              <li>Mahasiswa mengakses  alamat website pada link <a href="http://inobelum-arbes.com">http://inobelum-arbes.com</a></li>
+              <li>Mahasiswa  memahami SCPL, CMPK, dan Sub CMPK yang dapat diakses di Menu Tentang &gt;  Identitas Mata Kuliah.</li>
+              <li>Mahasiswa masuk pada  Menu Materi Ajar dan memilih pertemuan sesuai dengan pertemuan perkuliahan.</li>
+              <li>Jika terdapat  materi yang belum dipahami mahasiswa dapat mengajukan pertanyaan di kolom  pertanyaan dan jika terdapat permasalahan terkait <em>website</em> silakan hubungi Admin.</li>
+              <li>Setelah memahami materi yang tersedia di setiap  pertemuan, mahasiswa mengerjakan tugas individu yang sudah disediakan di setiap  laman pertemuan dan dikumpulkan melalui menu Assessment.</li>
            </ol>
           </p>
       </div>
