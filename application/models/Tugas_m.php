@@ -58,6 +58,12 @@ class Tugas_m extends CI_Model {
 
 	}
 
+	public function hapusTugas($id)
+	{
+		$this->db->where('id', $id);
+	  	$this->db->delete('tb_tugas');
+	}
+
 
 
 }

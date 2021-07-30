@@ -56,5 +56,21 @@ class Tugas extends CI_Controller {
 	    }
 	}
 
+	function hapusTugas(){
+	  	$id = $this->uri->segment(3);
+
+		$itemmateri = $this->tugas_m->get($id)->row();
+		if ($itemmateri->file != null) {
+			$target_file = 'assets/files/tugas/'.$itemmateri->file;
+			unlink($target_file);
+		}
+		
+		$this->tugas_m->hapusTugas($id);
+		$this->session->set_flashdata('danger','Materi Berhasil Di Hapus');
+		redirect('https://admin.inobelum-arbes.com/tugas/');
+	}
+
+
+
 		
 }

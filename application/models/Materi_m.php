@@ -36,6 +36,17 @@ class Materi_m extends CI_Model {
 		return $query;
 	}
 
+	public function getTugas($id = null) 
+	{
+		$this->db->from('tb_tugas');
+		if ($id != null) {
+			$this->db->where('id',$id);
+		}
+
+		$query = $this->db->get();
+		return $query;
+	}
+
 	public function addPertanyaan ($post)
 	{
 		$params['id'] =  "";	    
@@ -46,6 +57,8 @@ class Materi_m extends CI_Model {
 		$params['created'] =  date("Y:m:d:H:i:sa");	  
 		$this->db->insert('tb_pertanyaan',$params);
 	}
+
+	
 
 
 }
