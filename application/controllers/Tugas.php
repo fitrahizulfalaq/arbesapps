@@ -23,7 +23,7 @@ class Tugas extends CI_Controller {
 		$this->form_validation->set_error_delimiters('<span class="badge badge-danger">', '</span>');
 
 		if ($this->form_validation->run() == FALSE) {
-			$data['menu'] = "Tugas / Sumbit";
+			$data['menu'] = "Tugas / Submit";
 			$data['judul'] = "Tambah Data tugas";
 			
 			$this->templateadmin->load('templateadmin','tugas/addTugas',$data);
