@@ -66,7 +66,6 @@ class Tugas extends CI_Controller {
 		}
 		
 		$this->tugas_m->hapusTugas($id);
-		$this->session->set_flashdata('danger','Materi Berhasil Di Hapus');
 		redirect('https://admin.inobelum-arbes.com/tugas/');
 	}
 
